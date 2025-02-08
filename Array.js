@@ -10,7 +10,7 @@
 // arr[0]=10;
 // console.log(arr);
 
-// method from chatgpt
+// method 
 
 // 1. push() – Add Element to End
 // Adds one or more elements to the end of an array.
@@ -90,7 +90,6 @@
 // let arr = ["Hello", "World"];
 // console.log(arr.join(" ")); // "Hello World"
 
-
 // 14. splice() – this method is used to add, remove, or replace elements in an array. It modifies the original array in place and returns an array containing the removed elements.
 // array.splice(startIndex, deleteCount, item1, item2, ...);
 // startIndex → The index where the modification starts.
@@ -121,12 +120,6 @@
 // console.log(arr); // [10, 20]
 // 🔹 Explanation: Deletes everything after index 2.
 
-// 5️⃣ Using splice() to Copy and Remove Elements:
-// let arr = ["a", "b", "c", "d"];
-// let removed = arr.splice(1, 2); // Removes "b" and "c"
-// console.log(arr); // ["a", "d"]
-// console.log(removed); // ["b", "c"]
-// 🔹 Explanation: "b" and "c" are removed and stored in removed.
 
 
 
