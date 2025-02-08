@@ -1,6 +1,4 @@
-// console.log("Array");
-
-//array is mutable
+// Array - mutable not like string
 
 // let arr=[1,2,3,4,5];
 
@@ -12,6 +10,7 @@
 // arr[0]=10;
 // console.log(arr);
 
+// method from chatgpt
 
 // 1. push() – Add Element to End
 // Adds one or more elements to the end of an array.
@@ -92,11 +91,7 @@
 // console.log(arr.join(" ")); // "Hello World"
 
 
-// 14. splice() – Add, Remove, or Replace Elements
-// Modifies an array by adding, removing, or replacing elements.
-
-// The splice() method is used to add, remove, or replace elements in an array. It modifies the original array in place and returns an array containing the removed elements.
-
+// 14. splice() – this method is used to add, remove, or replace elements in an array. It modifies the original array in place and returns an array containing the removed elements.
 // array.splice(startIndex, deleteCount, item1, item2, ...);
 // startIndex → The index where the modification starts.
 // deleteCount → The number of elements to remove (optional).
@@ -132,6 +127,13 @@
 // console.log(arr); // ["a", "d"]
 // console.log(removed); // ["b", "c"]
 // 🔹 Explanation: "b" and "c" are removed and stored in removed.
+
+
+
+
+
+
+
 
 
 // 15. forEach() – Loop Over Elements
