@@ -120,18 +120,8 @@
 // console.log(arr); // [10, 20]
 // 🔹 Explanation: Deletes everything after index 2.
 
-
-
-
-
-
-
-
-
-
 // 15. forEach() – Loop Over Elements
 // The forEach() method is used to iterate over an array and execute a function for each element. It's commonly used for performing actions like logging, modifying, or interacting with each array element.
-
 // array.forEach((element, index, array) => {
 //     // Code to execute on each element
 // });
@@ -193,7 +183,6 @@
 // // Bob is 30 years old.
 // // Charlie is 35 years old.
 
-
 // 16. map() – Transform Elements
 // Creates a new array by applying a function to each element.
 // The map() method is used to create a new array by applying a function to each element of an existing array. It does not modify the original array.
@@ -249,7 +238,6 @@
 // console.log(indexedArray);
 // ["Index 0: 10", "Index 1: 20", "Index 2: 30"]
 
-
 // 📌 17. filter() – Get Specific Elements
 // Creates a new array with elements that pass a condition.
 // The filter() method is used to create a new array containing only elements that pass a specific condition. It does not modify the original array.
@@ -296,7 +284,6 @@
 // let numbers = [1, 2, 2, 3, 4, 4, 5];
 // let uniqueNumbers = numbers.filter((num, index, arr) => arr.indexOf(num) === index);
 // console.log(uniqueNumbers); // [1, 2, 3, 4, 5]
-
 
 // 📌 18. reduce() – Accumulate Values
 // The reduce() method is used to process an array and reduce it to a single value (sum, product, object, etc.). It is commonly used for calculations, transformations, and aggregations.
