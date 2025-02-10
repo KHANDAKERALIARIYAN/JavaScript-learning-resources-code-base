@@ -93,3 +93,51 @@
 // document.body.children[1].tBodies
 // HTMLCollection [tbody]
 
+// selecting by ids,classes
+
+// get element by class name
+// let Box =document.getElementsByClassName("box")
+// console.log(Box);
+// Box[0].style.backgroundColor="red"
+// Box[1].style.backgroundColor="gray"
+// Box[2].style.backgroundColor="blue"
+// Box[3].style.backgroundColor="yellow"
+// Box[4].style.backgroundColor="pink"
+
+// get element by id name
+// document.getElementById("Last").style.backgroundColor="green"
+
+// get element by query selector
+// document.querySelector(".box").style.backgroundColor="red" // will change only one the 1st one
+// document.querySelectorAll(".box").style.backgroundColor="red"//cannot change the color
+// console.log(document.querySelectorAll(".box")) // will return the node list
+// for printing all the elemnet of HTML
+// document.querySelectorAll(".box").forEach(element=>{
+//     console.log(element);
+// })
+// will print all the box into red color
+// document.querySelectorAll(".box").forEach(element=>{
+//     element.style.backgroundColor="red"
+// })
+
+// get element by tag name
+// document.getElementsByTagName("div")
+// HTMLCollection(7) [div.container, div.box, div.box, div.box, div.box, div.box, div#Last.box, Last: div#Last.box]
+
+// matches closest contains
+// e=document.getElementsByTagName("div")
+// HTMLCollection(7) [div.container, div.box, div.box, div.box, div.box, div.box, div#Last.box, Last: div#Last.box]
+// e[4].matches("#redbox")
+// false
+// e[1]
+// <div class=​"box">​Div 1​</div>​
+// e[6]
+// <div id=​"Last" class=​"box">​Div 6​</div>​
+// e[6].matches("#Last")
+// true
+// e[3].matches("html")
+// false
+// e[2].closest("html")
+// <html lang=​"en">​scroll<head>​…​</head>​<body>​…​</body>​</html>​
+// document.querySelector(".container").contains(e[2])
+// true
