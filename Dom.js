@@ -1,6 +1,6 @@
 // javascript document object model 
 
-// document.title
+// document.title 
 // 'JS'
 // document.title="Ariyan js"
 // 'Ariyan js'
@@ -85,7 +85,6 @@
 // document.body.children[1].rows
 // HTMLCollection(2) [tr, tr]
 // document.body.children[1].caption
-
 // null
 // document.body.children[1].tHead
 // null
