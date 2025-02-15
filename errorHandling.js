@@ -9,10 +9,10 @@
 // }
 
 // let sum =parseInt(a) + parseInt(b);
+
 // let x=6;
 // try {
 //     console.log("Sum is: "+sum*x);
-
 // } catch (error) {
 //     console.log("Error occured");
 //     // console.log("Error: "+error.message);
@@ -36,7 +36,6 @@
 //     let x = 6;
 //     try {
 //         console.log("Sum is: " + sum * x);
-
 //     } catch (error) {
 //         console.log("Error occured");
 //         // console.log("Error: "+error.message);
